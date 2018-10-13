@@ -10,7 +10,7 @@ document.getElementById("check").onclick=function(){
 	  
 	  if(document.getElementById("num").value==randomNum && document.getElementById("num2").value==randomNum2){
 	 
-		  alert("you win");
+		  alert("You win!");
 	  }
 	  else{
 		  alert("I am afraid, it is not. It is " + randomNum +" and "+randomNum2);
